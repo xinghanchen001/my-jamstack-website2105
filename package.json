@@ -5,10 +5,10 @@
     "@11ty/eleventy-img": "2.0.0",
     "archiver": "^5.2.0",
     "extract-zip": "^2.0.1",
-    "lodash.chunk": "^4.2.0",
-    "lodash.get": "^4.4.2",
     "fs-extra": "^9.1.0",
     "fuse.js": "^6.4.6",
+    "lodash.chunk": "^4.2.0",
+    "lodash.get": "^4.4.2",
     "node-fetch": "^2.6.1"
   },
   "scripts": {
@@ -20,7 +20,18 @@
     "local-backend": "npx netlify-cms-proxy-server"
   },
   "devDependencies": {
+    "@eslint/js": "^9.7.0",
     "date-fns": "2.16.1",
+    "eslint": "^9.7.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "globals": "^15.8.0",
     "html-minifier": "4.0.0"
-  }
+  },
+  "description": "",
+  "version": "1.0.0",
+  "main": ".eleventy.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
